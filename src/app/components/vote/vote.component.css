@@ -1,0 +1,9 @@
+.container .animate-vote{
+    margin-top: 1%;
+    width: 100%;
+}
+.container .animate-vote img{
+    width: 91.5%;
+    object-fit: cover;
+    margin-left: 33px;
+}

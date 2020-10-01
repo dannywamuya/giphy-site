@@ -21,10 +21,9 @@
     font-size: 25px;
     color: white;
 }
-.container #color-change{
+.container #search{
     height: 60px;
     width: 70px;
     background: linear-gradient(hsl(0, 85%, 55%), #9198e5);
-    animation: mymove 5s infinite;
 }
  
