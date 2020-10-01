@@ -15,7 +15,7 @@
     height: 35px;
     outline: none;
     border: none;
-    margin-left: 6px;
+    margin: 0 20px;
     font-size: 15px;
     color: white;
     background-color: #5607F3;
@@ -29,7 +29,7 @@
     height: 35px;
     outline: none;
     border: none;
-    margin-left: 20px;
+    margin: 0 20px;
     font-size: 15px;
     color: white;
     background-color: #5607F3;
@@ -51,7 +51,7 @@
     width: 40px;
     height: 40px;
     object-fit: fill;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: -4px;
     z-index: 1;
     position: relative;
