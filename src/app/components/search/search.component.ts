@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
+  performSearch(searchItem: HTMLInputElement):void {
+    console.log(`User entered: ${searchItem.value}`);
+  }
+
   constructor() { }
 
   ngOnInit(): void {

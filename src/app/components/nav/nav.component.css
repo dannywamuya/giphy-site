@@ -15,28 +15,26 @@
     height: 35px;
     outline: none;
     border: none;
-    margin: 0 20px;
+    margin: 0 18px;
     font-size: 15px;
     color: white;
-    background-color: #5607F3;
-    border-radius: 2px;
+    background-color: #685EFF;
 }
 .container .navbar .create-btn:hover{
-    background-color: rgba(86,7,243,.8);
+    background-color: rgba(104,94,255,.8);
 }
 .container .navbar .upload-btn{
     width: 80px;
     height: 35px;
     outline: none;
     border: none;
-    margin: 0 20px;
+    margin: 0 0 0 20px;
     font-size: 15px;
     color: white;
-    background-color: #5607F3;
-    border-radius: 2px;
+    background-color: #685EFF;
 }
 .container .navbar .upload-btn:hover{
-    background-color: rgba(86,7,243,.8);
+    background-color: rgba(104,94,255,.8);
 }
 .container .navbar .fa-ellipsis-v{
     font-size: 20px;
@@ -51,19 +49,18 @@
     width: 40px;
     height: 40px;
     object-fit: fill;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: -4px;
     z-index: 1;
     position: relative;
 }
 .container .dropdown{
     border-style: none;
-    font-size: 15px ;
 }
 .container .dropdown button{
     border-style: none;
-    font-size: 13px;
-    width: 120px;
+    font-size: 14px;
+    width: 145px;
     height: 40px;
     box-shadow: none;
 }
@@ -73,7 +70,7 @@
 }
 .container .dropdown-menu{
     background-color: #3E3E3E;
-    font-size: 13px;
+    font-size: 14px;
 }
 .container .dropdown-item:hover{
     background-color: rgba(97, 97, 97, 0.37);
