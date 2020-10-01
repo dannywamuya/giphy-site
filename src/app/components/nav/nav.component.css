@@ -1,0 +1,78 @@
+.container{
+    align-items: center;
+    justify-content: center;
+}
+.container .navbar{
+    background-color: black;
+}
+.container .navbar img{
+    width: 200px;
+    height: 60px;
+    object-fit: cover;
+}
+.container .navbar .create-btn{
+    width: 80px;
+    height: 35px;
+    outline: none;
+    border: none;
+    margin-left: 6px;
+    font-size: 15px;
+    color: white;
+    background-color: #5607F3;
+    border-radius: 2px;
+}
+.container .navbar .create-btn:hover{
+    background-color: rgba(86,7,243,.8);
+}
+.container .navbar .upload-btn{
+    width: 80px;
+    height: 35px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: #5607F3;
+    border-radius: 2px;
+}
+.container .navbar .upload-btn:hover{
+    background-color: rgba(86,7,243,.8);
+}
+.container .navbar .fa-ellipsis-v{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.container ul li a{
+    color: white;
+}
+.container li .avatar{
+    width: 40px;
+    height: 40px;
+    object-fit: fill;
+    margin-left: 20px;
+    margin-right: -4px;
+    z-index: 1;
+    position: relative;
+}
+.container .dropdown{
+    border-style: none !important;
+    font-size: 15px !important;
+}
+.container .dropdown button{
+    border-style: none !important;
+    font-size: 13px !important;
+    width: 120px;
+    height: 40px;
+    box-shadow: none;
+}
+.container .dropdown-menu{
+    background-color: grey;
+}
+.container .dropdown-item:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)) !important;
+}
+.container .active:hover{
+    background: linear-gradient(#e66465, #9198e5);
+}
