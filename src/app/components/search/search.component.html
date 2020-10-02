@@ -1,6 +1,6 @@
 <div class="container">
     <div class="search-bar">
       <input  #searchItem type="text" placeholder="Search for GIFs and Stickers">
-      <button (click)='performSearch(searchItem)' id="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+      <button (click)="performSearch(searchItem.value)" id="search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
     </div>
 </div>

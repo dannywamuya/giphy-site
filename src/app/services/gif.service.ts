@@ -28,6 +28,13 @@ export class GifService {
     return this.gifs.asObservable();
   }
   
+  gifSearch(name){
+    return this.http.get(`${this.searchUrl}?q=${name}&api_key=${this.api_key}&limit=${this.Limit}`)
+    .subscribe((response: any) => {
+      this.gifs.next(response.data);
+    })
+  }
+
   more(){
     this.Limit = this.Limit + 12;
     return this.http.get(`${this.trendingUrl}?api_key=${this.api_key}&limit=${this.Limit}`)
@@ -35,4 +42,5 @@ export class GifService {
       this.gifs.next(response.data);
     })
   }
+
 }

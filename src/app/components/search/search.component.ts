@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GifService } from 'src/app/services/gif.service';
 
 @Component({
   selector: 'app-search',
@@ -7,13 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  performSearch(searchItem: HTMLInputElement):void {
-    console.log(`User entered: ${searchItem.value}`);
-  }
-
-  constructor() { }
+  constructor(private gifService: GifService) { }
 
   ngOnInit(): void {
+  }
+
+  performSearch(searchItem:string){
+    if(searchItem !== ''){
+      this.gifService.gifSearch(searchItem);
+    }
   }
 
 }
